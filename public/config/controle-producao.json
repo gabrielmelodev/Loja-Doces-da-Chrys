@@ -1,0 +1,38 @@
+{
+  "prazoEncomendas": "2026-12-24",
+  "taxaEntrega": 10,
+  "entregaAtiva": true,
+  "controleProducao": {
+    "capacidadeDiaria": 20,
+    "observacao": "Ajuste a capacidade conforme a equipe e a produção do dia. O controle global de pedidos exige backend/banco de dados."
+  },
+  "produtos": {
+    "mousse": {
+      "P": 140,
+      "G": 160,
+      "itens": {
+        "Limão": { "estoque": 20, "ativo": true },
+        "Morango": { "estoque": 20, "ativo": true },
+        "Maracujá": { "estoque": 20, "ativo": true }
+      }
+    },
+    "cheesecake": {
+      "P": 150,
+      "G": 180,
+      "itens": {
+        "Morango": { "estoque": 20, "ativo": true },
+        "Maracujá": { "estoque": 20, "ativo": true },
+        "Creme de Ninho": { "estoque": 20, "ativo": true }
+      }
+    },
+    "pave": {
+      "P": 140,
+      "G": 170,
+      "itens": {
+        "Tradicional": { "estoque": 20, "ativo": true },
+        "Abacaxi": { "estoque": 20, "ativo": true },
+        "Morango": { "estoque": 20, "ativo": true }
+      }
+    }
+  }
+}
